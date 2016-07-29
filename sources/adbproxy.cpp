@@ -76,6 +76,6 @@ class ProxyServerApplication : public ServerApplication
 // Главная функция программмы, создает экземпляр класса прокси сервера и запускает его.
 int main(int argc, char** argv)
 {
-    ProxyServerApplication ServerApplication;
-    return ServerApplication.run(argc, argv);
+    ProxyServerApplication ServerApp;
+    return ServerApp.run(argc, argv);
 }
